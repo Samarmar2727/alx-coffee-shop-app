@@ -64,13 +64,11 @@ I found out the problem was because **the IP address in Expo did not match the d
    ```command
    ipconfig
 
-2. I copied my current IP address (e.g. 192.168.1.10), then manually set the IP for React Native by running in PowerShell:
-powershell
-Copy
-Edit
-Setx /M REACT_NATIVE_PACKAGER_HOSTNAME 192.168.1.10
+2.  I copied my current IP address (e.g. 192.168.1.10), then manually set the IP for React Native by running in PowerShell:
+````powershell
+ Setx /M REACT_NATIVE_PACKAGER_HOSTNAME 192.168.1.10
 
-✅ After this step, Expo Go connected successfully to the development server!
+## ✅ After this step, Expo Go connected successfully to the development server!
 
 ---
 
@@ -79,14 +77,13 @@ Setx /M REACT_NATIVE_PACKAGER_HOSTNAME 192.168.1.10
 - I used the real device location via a custom hook useLocation, built using expo-location.
 - The location is used in the Tracking screen, rendered via react-native-maps, and the user’s current position is marked.
 
+--- 
 
  ## 🧪 Future Improvements
 - Add real backend with actual order data
 - Add user login / authentication
-
-Add animations or Lottie files for smoother transitions
-
-Improve error handling and form validation
+- Add animations or Lottie files for smoother transitions
+- Improve error handling and form validation
 
 ## 🙋‍♀️ Author
 Made with 💙 by Samar Khaled
