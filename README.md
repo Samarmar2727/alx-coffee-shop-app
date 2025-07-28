@@ -65,9 +65,9 @@ I found out the problem was because **the IP address in Expo did not match the d
    ipconfig
 
 2.  I copied my current IP address (e.g. 192.168.1.10), then manually set the IP for React Native by running in PowerShell:
-````powershell
+```powershell
  Setx /M REACT_NATIVE_PACKAGER_HOSTNAME 192.168.1.10
-
+---
 ## ✅ After this step, Expo Go connected successfully to the development server!
 
 ---
