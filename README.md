@@ -1,7 +1,8 @@
 # ☕ Coffee Delivery App (React Native with Expo)
 
 A simple coffee delivery mobile application built using **React Native** and **Expo Router**.  
-The app simulates a coffee ordering experience, from onboarding to tracking your delivery on the map.
+The app simulates a coffee ordering experience, from onboarding to tracking your delivery on the map.  
+🔸 **Note:** This app uses locally stored mock data to simulate orders, delivery details, and tracking instead of real API integration.
 
 ---
 
@@ -41,7 +42,7 @@ The app simulates a coffee ordering experience, from onboarding to tracking your
 
 - **Hooks**: `useState`, `useEffect`, and a custom hook for location (`useLocation`)
 - **Navigation**: Using `expo-router` with dynamic routing
-- **Context**: Could be added in the future for global order state
+
 
 ---
 
