@@ -72,23 +72,23 @@ Setx /M REACT_NATIVE_PACKAGER_HOSTNAME 192.168.1.10
 
 ✅ After this step, Expo Go connected successfully to the development server!
 
+---
 
-🗺️ Location Feature
-I used the real device location via a custom hook useLocation, built using expo-location.
+## 🗺️ Location Feature
 
-The location is used in the Tracking screen, rendered via react-native-maps, and the user’s current position is marked.
+- I used the real device location via a custom hook useLocation, built using expo-location.
+- The location is used in the Tracking screen, rendered via react-native-maps, and the user’s current position is marked.
 
 
-🧪 Future Improvements
-Add real backend with actual order data
-
-Add user login / authentication
+ ## 🧪 Future Improvements
+- Add real backend with actual order data
+- Add user login / authentication
 
 Add animations or Lottie files for smoother transitions
 
 Improve error handling and form validation
 
-🙋‍♀️ Author
+## 🙋‍♀️ Author
 Made with 💙 by Samar Khaled
 A Frontend Developer passionate about clean UI and smooth user experiences.
 
